@@ -3,6 +3,7 @@
 using namespace std;
 
 int knapsack(int *w, int *v, int capacity, int n, int **ans){
+    // Base Case
     if(n == 0 || capacity <= 0){
         return 0;
     }
